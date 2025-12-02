@@ -89,3 +89,22 @@ const checkWinner = () => {
 
 newGameBtn.addEventListener("click", resetGame);
 resetBtn.addEventListener("click", resetGame);
+
+// PR test: temporary debug changes for AI review
+const unusedVariable = 42; // style: unused variable
+console.log("PR test: debug log - please ignore");
+
+function intentionallyBuggy(a, b) {
+  // intentionally returns wrong result to simulate a bug for AI to find
+  return a - b;
+}
+
+// PR test: temporary debug changes for AI review
+const unusedVariable = 42; // style: unused variable
+console.log('PR test: debug log - please ignore');
+
+function intentionallyBuggy(a, b) {
+  // intentionally returns wrong result to simulate a bug for AI to find
+  return a - b;
+}
+
