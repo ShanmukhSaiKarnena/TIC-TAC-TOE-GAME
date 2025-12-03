@@ -85,6 +85,7 @@ const checkWinner = () => {
       }
     }
   }
+  return false; // Explicitly return false if no winner
 };
 
 newGameBtn.addEventListener("click", resetGame);
